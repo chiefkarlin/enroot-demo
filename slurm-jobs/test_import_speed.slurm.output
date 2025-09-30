@@ -1,0 +1,206 @@
+Starting Enroot import speed test...
+Container to import: docker://nvcr.io#nvidia/pytorch:24.05-py3
+-------------------------------------------------
+
+--- Testing import to NFS (/home/robv_google_com/enroot_cache_test_nfs) ---
+
+--- Verifying contents of NFS cache directory: ---
+total 24G
+drwxrwxr-x  3 robv_google_com robv_google_com    0 Sep 17 22:13 .
+drwxr-xr-x 10 robv_google_com robv_google_com    0 Sep 17 22:12 ..
+drwx------  2 robv_google_com robv_google_com    0 Sep 17 22:14 .tokens.89867396
+-rw-r-----  1 robv_google_com robv_google_com 1.2K Sep 17 22:12 0365a1d1e9967a867c2bc455709213165ce2cb6866b6dc0cbfc37734d91b3b66
+-rw-r-----  1 robv_google_com robv_google_com 158M Sep 17 22:12 068f728715cc6fb7a027aee7a1ebf8190d131a641e3bbd0f0c3b8dbc8721a7cc
+-rw-r-----  1 robv_google_com robv_google_com  13M Sep 17 22:12 0ab80fad63f8a168fc22cd3e20f59fca945e97d2a857cf877938524ee782e480
+-rw-r-----  1 robv_google_com robv_google_com 2.9G Sep 17 22:12 0d55198c2909daf8ab00f1422720c28c1979b14797fde1e72b3b3857c41e84af
+-rw-r-----  1 robv_google_com robv_google_com 138K Sep 17 22:12 10534a2947dddd8e5a6590a2c060c1e91aa3a15b8e29458ff880a440b7da9682
+-rw-r-----  1 robv_google_com robv_google_com  16K Sep 17 22:12 1605eaca532fbf204c0c9a79949a65efddc1e5a644e2d7a2bc9d839ae2b283ff
+-rw-r-----  1 robv_google_com robv_google_com 6.9M Sep 17 22:12 16122c894301f74b57a7bf58f225544cee419cd4b19fb9ed6c2d37c9a03674f5
+-rw-r-----  1 robv_google_com robv_google_com 9.2K Sep 17 22:12 20b589f3eab4fa1486e8cd93bd080d3b4b3232aca17699c0eb944ff56e0eaef5
+-rw-r-----  1 robv_google_com robv_google_com  528 Sep 17 22:12 26dad4c39e1d2b8bb018c315bc4e3870d364806f2b5e4ef3b87364cc671a7b85
+-rw-r-----  1 robv_google_com robv_google_com  19K Sep 17 22:12 28e3223edf8b91e9d9553987db0199a226948cf8c6e2c3d4070359594012368e
+-rw-r-----  1 robv_google_com robv_google_com  69M Sep 17 22:12 30f24dff23672f0c670cda46e508190a4216d1e52723000feede778284a67857
+-rw-r-----  1 robv_google_com robv_google_com  52M Sep 17 22:12 3211d70dbc71e0d83099c2bd9ada439d23a2aeb0495f0f6532fc9ab699b4bddc
+-rw-r-----  1 robv_google_com robv_google_com  36M Sep 17 22:12 3838d439f96b12bdd41e26f75522c2662b26e543064b5feb1ed1967582d57f7c
+-rw-r-----  1 robv_google_com robv_google_com 225M Sep 17 22:12 3bff7e85de19ebdfe21c9680b933ae9a6823e097a6e13d846d97de83e17fa82a
+-rw-r-----  1 robv_google_com robv_google_com  82M Sep 17 22:12 415616bd3eb5e4b7554aba5a652dd6271d8567c79724d8c97503917639b9e5a7
+-rw-r-----  1 robv_google_com robv_google_com  62K Sep 17 22:12 49a182c3a716e3112d13fccf8b9c2cdb832abd51c83fdfeee06c1b36ebb659c7
+-rw-r-----  1 robv_google_com robv_google_com  15M Sep 17 22:12 49d543b38b640d0751a4bde8ea9841f2206edb58c10efc69d3b52fc6d2d22dd8
+-rw-r-----  1 robv_google_com robv_google_com   22 Sep 17 22:12 4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1
+-rw-r-----  1 robv_google_com robv_google_com 184M Sep 17 22:12 551e914e0601efd66fd1d550347fdf93b57ae7dafbac019862735835b8ad1d5c
+-rw-r-----  1 robv_google_com robv_google_com  444 Sep 17 22:12 6736e27386e215f8a8783a12d5f00543cfa3f28ea3ef522ac1b1b2b21e1ec7f9
+-rw-r-----  1 robv_google_com robv_google_com 560M Sep 17 22:12 7ee0fb41daf016a1b1c1a7f09f3a520e48668f534b6d05e9d512ea31d0d1ae7f
+-rw-r-----  1 robv_google_com robv_google_com  164 Sep 17 22:12 8595082e4c4d0fd5e789a7b08caa513e99a3daa4c334bfa91505773461039f3f
+-rw-r-----  1 robv_google_com robv_google_com 111M Sep 17 22:12 8cd7a829f9590817f5a94f1e50408777dba173caa39f5471a1c4e2d8f5b01696
+-rw-r-----  1 robv_google_com robv_google_com  55M Sep 17 22:12 904d64cd649ed06890bda7caa7dd336d0ff4223eb9d4ae89436fe1b45edca4e2
+-rw-r-----  1 robv_google_com robv_google_com 1.4M Sep 17 22:12 91387160b3201919057d911a82b7704a9a466b2ac542234d6ac53141a76bc880
+-rw-r-----  1 robv_google_com robv_google_com  482 Sep 17 22:12 a1bb87b1bdf02f2db521b87d05f1889788286c3de9fc4b7212f32b632f8cc877
+-rw-r-----  1 robv_google_com robv_google_com 140M Sep 17 22:12 a1ceee53b5e4ecb167c3dff9d667fa0bcc246a303565abb954ad78b197e8f465
+-rw-r-----  1 robv_google_com robv_google_com  107 Sep 17 22:12 a344452058e8a5451fe32ee0ae17bd9b2fdcebbc2750cf1a3ebc5d809214a1e5
+-rw-r-----  1 robv_google_com robv_google_com 615K Sep 17 22:12 a42826ae137d0e6a6c82bcd342e69c767528e98e155b86aa871f21c5d62b6b24
+-rw-r-----  1 robv_google_com robv_google_com  16M Sep 17 22:12 b0af13aeaa1db964ff69a2676c920127089dbe06210fc290251d64f77bde236b
+-rw-r-----  1 robv_google_com robv_google_com 6.3K Sep 17 22:12 b31eec21bf1b88927a9d1f32932a27c752b7b91b0658658fa9b7dd95164da49b
+-rw-r-----  1 robv_google_com robv_google_com 6.5M Sep 17 22:12 b4c0ed31a6c2756c555f10720d4cabcc4a6169277707efcf29590ffed27be242
+-rw-r-----  1 robv_google_com robv_google_com  30M Sep 17 22:12 b52ef49b406a9f6469f841247bbd3aef757ae6f11784ee2858bd9064935161d6
+-rw-r-----  1 robv_google_com robv_google_com 8.7M Sep 17 22:12 b8c68503ae7c3403f63b7cf35ebe94a8826832a7bd47965b7d0311e7d1d214ce
+-rw-r-----  1 robv_google_com robv_google_com  12K Sep 17 22:12 bf82cf860ffe7ab6b6129710bf3fa8c76a05e35e7cc366bd1e54d6ee0d984c24
+-rw-r-----  1 robv_google_com robv_google_com  29M Sep 17 22:12 cd5cc4e923ff9133b3764ab5dc0879c60efd23760a76e71ac9bb458770560185
+-rw-r-----  1 robv_google_com robv_google_com 438M Sep 17 22:12 d2463ee1a4116573f2f0842bde6529fc5cc4da0a85b5071a1d5bdd38bda93102
+-rw-r-----  1 robv_google_com robv_google_com 1.2K Sep 17 22:12 d3d601b344d95ecf9c2af6a43a7ff59b710c0e04c5e0f11431605860b3a8f7d0
+-rw-r-----  1 robv_google_com robv_google_com 347M Sep 17 22:12 d41f04651b7a2487f1e7d400aad204da8d4886ac4cca312a1668614bb1b0d523
+-rw-r-----  1 robv_google_com robv_google_com  12K Sep 17 22:12 d936dd218d4ffcfa353712b966e83f9b8cfe22a6ea68a813cfdc94cae9b2efce
+-rw-r-----  1 robv_google_com robv_google_com  29M Sep 17 22:12 daa57fc4a38c9da2bf16b7bf5aacc5a6ddc4859c141d5f9e1207d44da53583a4
+-rw-r-----  1 robv_google_com robv_google_com  33M Sep 17 22:12 dd497867abf19fa693da97dd7c4cebcd29f4a5a225899c8d375b4c30e4073f27
+-rw-r-----  1 robv_google_com robv_google_com  30M Sep 17 22:12 e311a697a4031e52691ab1b5a8c325a448280fef9fc03d89dd97ab40f4245bce
+-rw-r-----  1 robv_google_com robv_google_com 1.3G Sep 17 22:12 e8fa9853f2ca255bfff4eaddfb8a784ca7bbe11b45a455d0dfa211de6532ea5b
+-rw-r-----  1 robv_google_com robv_google_com  93M Sep 17 22:12 ec014b2ba69ec775264ec156adf5d8f3adbb7f76965eb5adc515a0a130013e0a
+-rw-r-----  1 robv_google_com robv_google_com 1.4M Sep 17 22:12 edc495e385c1f3c343395e6a87c0c27193bf444912c8e4f3bad3f6d2ea6b8922
+-rw-r-----  1 robv_google_com robv_google_com 1.1G Sep 17 22:12 ee67973ac6640d85e305c28fee60c0c6eb9687b3c76a29a8a39a9040c1e75da4
+-rw-r-----  1 robv_google_com robv_google_com 1.2K Sep 17 22:12 f1c53936bbd18d02d04e7152a8ca775b82665be80dc43dc4a38b22e5359db7a9
+-rw-r-----  1 robv_google_com robv_google_com  65M Sep 17 22:12 f585a551a9215fe9cc3e3b6d0fc3ebefe6948cdd6605f6401d4904b3af6fd9d9
+-rw-r-----  1 robv_google_com robv_google_com 274M Sep 17 22:12 fc24ce2af9ec6149b2ca0fe2a82cfc1bab2e37d27036a9f3f7ba7fd45ab222de
+-rw-r--r--  1 robv_google_com robv_google_com  16G Sep 17 22:14 nvidia+pytorch+24.05-py3.sqsh
+-------------------------------------------------
+
+--- Testing import to local scratch (/mnt/localssd/enroot_cache_test_ssd) ---
+
+--- Verifying contents of Local SSD cache directory: ---
+total 24G
+drwxrwxr-x 3 robv_google_com robv_google_com 4.0K Sep 17 22:15 .
+drwxrwxrwt 8 root            root            4.0K Sep 17 22:12 ..
+drwx------ 2 robv_google_com robv_google_com 4.0K Sep 17 22:15 .tokens.89867396
+-rw-r----- 1 robv_google_com robv_google_com 1.2K Sep 17 22:14 0365a1d1e9967a867c2bc455709213165ce2cb6866b6dc0cbfc37734d91b3b66
+-rw-r----- 1 robv_google_com robv_google_com 158M Sep 17 22:14 068f728715cc6fb7a027aee7a1ebf8190d131a641e3bbd0f0c3b8dbc8721a7cc
+-rw-r----- 1 robv_google_com robv_google_com  13M Sep 17 22:14 0ab80fad63f8a168fc22cd3e20f59fca945e97d2a857cf877938524ee782e480
+-rw-r----- 1 robv_google_com robv_google_com 2.9G Sep 17 22:15 0d55198c2909daf8ab00f1422720c28c1979b14797fde1e72b3b3857c41e84af
+-rw-r----- 1 robv_google_com robv_google_com 138K Sep 17 22:14 10534a2947dddd8e5a6590a2c060c1e91aa3a15b8e29458ff880a440b7da9682
+-rw-r----- 1 robv_google_com robv_google_com  16K Sep 17 22:14 1605eaca532fbf204c0c9a79949a65efddc1e5a644e2d7a2bc9d839ae2b283ff
+-rw-r----- 1 robv_google_com robv_google_com 6.9M Sep 17 22:14 16122c894301f74b57a7bf58f225544cee419cd4b19fb9ed6c2d37c9a03674f5
+-rw-r----- 1 robv_google_com robv_google_com 9.2K Sep 17 22:14 20b589f3eab4fa1486e8cd93bd080d3b4b3232aca17699c0eb944ff56e0eaef5
+-rw-r----- 1 robv_google_com robv_google_com  528 Sep 17 22:14 26dad4c39e1d2b8bb018c315bc4e3870d364806f2b5e4ef3b87364cc671a7b85
+-rw-r----- 1 robv_google_com robv_google_com  19K Sep 17 22:14 28e3223edf8b91e9d9553987db0199a226948cf8c6e2c3d4070359594012368e
+-rw-r----- 1 robv_google_com robv_google_com  69M Sep 17 22:14 30f24dff23672f0c670cda46e508190a4216d1e52723000feede778284a67857
+-rw-r----- 1 robv_google_com robv_google_com  52M Sep 17 22:14 3211d70dbc71e0d83099c2bd9ada439d23a2aeb0495f0f6532fc9ab699b4bddc
+-rw-r----- 1 robv_google_com robv_google_com  36M Sep 17 22:14 3838d439f96b12bdd41e26f75522c2662b26e543064b5feb1ed1967582d57f7c
+-rw-r----- 1 robv_google_com robv_google_com 225M Sep 17 22:14 3bff7e85de19ebdfe21c9680b933ae9a6823e097a6e13d846d97de83e17fa82a
+-rw-r----- 1 robv_google_com robv_google_com  82M Sep 17 22:14 415616bd3eb5e4b7554aba5a652dd6271d8567c79724d8c97503917639b9e5a7
+-rw-r----- 1 robv_google_com robv_google_com  62K Sep 17 22:14 49a182c3a716e3112d13fccf8b9c2cdb832abd51c83fdfeee06c1b36ebb659c7
+-rw-r----- 1 robv_google_com robv_google_com  15M Sep 17 22:14 49d543b38b640d0751a4bde8ea9841f2206edb58c10efc69d3b52fc6d2d22dd8
+-rw-r----- 1 robv_google_com robv_google_com   22 Sep 17 22:14 4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1
+-rw-r----- 1 robv_google_com robv_google_com 184M Sep 17 22:14 551e914e0601efd66fd1d550347fdf93b57ae7dafbac019862735835b8ad1d5c
+-rw-r----- 1 robv_google_com robv_google_com  444 Sep 17 22:14 6736e27386e215f8a8783a12d5f00543cfa3f28ea3ef522ac1b1b2b21e1ec7f9
+-rw-r----- 1 robv_google_com robv_google_com 560M Sep 17 22:14 7ee0fb41daf016a1b1c1a7f09f3a520e48668f534b6d05e9d512ea31d0d1ae7f
+-rw-r----- 1 robv_google_com robv_google_com  164 Sep 17 22:14 8595082e4c4d0fd5e789a7b08caa513e99a3daa4c334bfa91505773461039f3f
+-rw-r----- 1 robv_google_com robv_google_com 111M Sep 17 22:14 8cd7a829f9590817f5a94f1e50408777dba173caa39f5471a1c4e2d8f5b01696
+-rw-r----- 1 robv_google_com robv_google_com  55M Sep 17 22:14 904d64cd649ed06890bda7caa7dd336d0ff4223eb9d4ae89436fe1b45edca4e2
+-rw-r----- 1 robv_google_com robv_google_com 1.4M Sep 17 22:14 91387160b3201919057d911a82b7704a9a466b2ac542234d6ac53141a76bc880
+-rw-r----- 1 robv_google_com robv_google_com  482 Sep 17 22:14 a1bb87b1bdf02f2db521b87d05f1889788286c3de9fc4b7212f32b632f8cc877
+-rw-r----- 1 robv_google_com robv_google_com 140M Sep 17 22:14 a1ceee53b5e4ecb167c3dff9d667fa0bcc246a303565abb954ad78b197e8f465
+-rw-r----- 1 robv_google_com robv_google_com  107 Sep 17 22:14 a344452058e8a5451fe32ee0ae17bd9b2fdcebbc2750cf1a3ebc5d809214a1e5
+-rw-r----- 1 robv_google_com robv_google_com 615K Sep 17 22:14 a42826ae137d0e6a6c82bcd342e69c767528e98e155b86aa871f21c5d62b6b24
+-rw-r----- 1 robv_google_com robv_google_com  16M Sep 17 22:14 b0af13aeaa1db964ff69a2676c920127089dbe06210fc290251d64f77bde236b
+-rw-r----- 1 robv_google_com robv_google_com 6.3K Sep 17 22:14 b31eec21bf1b88927a9d1f32932a27c752b7b91b0658658fa9b7dd95164da49b
+-rw-r----- 1 robv_google_com robv_google_com 6.5M Sep 17 22:14 b4c0ed31a6c2756c555f10720d4cabcc4a6169277707efcf29590ffed27be242
+-rw-r----- 1 robv_google_com robv_google_com  30M Sep 17 22:14 b52ef49b406a9f6469f841247bbd3aef757ae6f11784ee2858bd9064935161d6
+-rw-r----- 1 robv_google_com robv_google_com 8.7M Sep 17 22:14 b8c68503ae7c3403f63b7cf35ebe94a8826832a7bd47965b7d0311e7d1d214ce
+-rw-r----- 1 robv_google_com robv_google_com  12K Sep 17 22:14 bf82cf860ffe7ab6b6129710bf3fa8c76a05e35e7cc366bd1e54d6ee0d984c24
+-rw-r----- 1 robv_google_com robv_google_com  29M Sep 17 22:14 cd5cc4e923ff9133b3764ab5dc0879c60efd23760a76e71ac9bb458770560185
+-rw-r----- 1 robv_google_com robv_google_com 438M Sep 17 22:14 d2463ee1a4116573f2f0842bde6529fc5cc4da0a85b5071a1d5bdd38bda93102
+-rw-r----- 1 robv_google_com robv_google_com 1.2K Sep 17 22:14 d3d601b344d95ecf9c2af6a43a7ff59b710c0e04c5e0f11431605860b3a8f7d0
+-rw-r----- 1 robv_google_com robv_google_com 347M Sep 17 22:14 d41f04651b7a2487f1e7d400aad204da8d4886ac4cca312a1668614bb1b0d523
+-rw-r----- 1 robv_google_com robv_google_com  12K Sep 17 22:14 d936dd218d4ffcfa353712b966e83f9b8cfe22a6ea68a813cfdc94cae9b2efce
+-rw-r----- 1 robv_google_com robv_google_com  29M Sep 17 22:14 daa57fc4a38c9da2bf16b7bf5aacc5a6ddc4859c141d5f9e1207d44da53583a4
+-rw-r----- 1 robv_google_com robv_google_com  33M Sep 17 22:14 dd497867abf19fa693da97dd7c4cebcd29f4a5a225899c8d375b4c30e4073f27
+-rw-r----- 1 robv_google_com robv_google_com  30M Sep 17 22:14 e311a697a4031e52691ab1b5a8c325a448280fef9fc03d89dd97ab40f4245bce
+-rw-r----- 1 robv_google_com robv_google_com 1.3G Sep 17 22:14 e8fa9853f2ca255bfff4eaddfb8a784ca7bbe11b45a455d0dfa211de6532ea5b
+-rw-r----- 1 robv_google_com robv_google_com  93M Sep 17 22:14 ec014b2ba69ec775264ec156adf5d8f3adbb7f76965eb5adc515a0a130013e0a
+-rw-r----- 1 robv_google_com robv_google_com 1.4M Sep 17 22:14 edc495e385c1f3c343395e6a87c0c27193bf444912c8e4f3bad3f6d2ea6b8922
+-rw-r----- 1 robv_google_com robv_google_com 1.1G Sep 17 22:14 ee67973ac6640d85e305c28fee60c0c6eb9687b3c76a29a8a39a9040c1e75da4
+-rw-r----- 1 robv_google_com robv_google_com 1.2K Sep 17 22:14 f1c53936bbd18d02d04e7152a8ca775b82665be80dc43dc4a38b22e5359db7a9
+-rw-r----- 1 robv_google_com robv_google_com  65M Sep 17 22:14 f585a551a9215fe9cc3e3b6d0fc3ebefe6948cdd6605f6401d4904b3af6fd9d9
+-rw-r----- 1 robv_google_com robv_google_com 274M Sep 17 22:14 fc24ce2af9ec6149b2ca0fe2a82cfc1bab2e37d27036a9f3f7ba7fd45ab222de
+-rw-r--r-- 1 robv_google_com robv_google_com  16G Sep 17 22:15 nvidia+pytorch+24.05-py3.sqsh
+-------------------------------------------------
+
+Cleaning up cache directories...
+Test complete.
+[INFO] Querying registry for permission grant
+[INFO] Authenticating with user: <anonymous>
+[INFO] Authentication succeeded
+[INFO] Fetching image manifest list
+[INFO] Fetching image manifest
+[INFO] Downloading 52 missing layers...
+[INFO] Extracting image layers...
+[INFO] Converting whiteouts...
+[INFO] Creating squashfs filesystem...
+Parallel mksquashfs: Using 224 processors
+Creating 4.0 filesystem on /home/robv_google_com/enroot_cache_test_nfs/nvidia+pytorch+24.05-py3.sqsh, block size 131072.
+
+Exportable Squashfs 4.0 filesystem, lzo compressed, data block size 131072
+	uncompressed data, compressed metadata, compressed fragments,
+	compressed xattrs, compressed ids
+	duplicates are removed
+Filesystem size 16359733.45 Kbytes (15976.30 Mbytes)
+	90.90% of uncompressed filesystem size (17997184.48 Kbytes)
+Inode table size 2680926 bytes (2618.09 Kbytes)
+	33.17% of uncompressed inode table size (8081721 bytes)
+Directory table size 2683656 bytes (2620.76 Kbytes)
+	37.40% of uncompressed directory table size (7175921 bytes)
+Number of duplicate files found 51753
+Number of inodes 233246
+Number of files 202104
+Number of fragments 12507
+Number of symbolic links 1809
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 29333
+Number of ids (unique uids + gids) 1
+Number of uids 1
+	root (0)
+Number of gids 1
+	root (0)
+
+real	2m35.727s
+user	5m31.792s
+sys	2m2.198s
+[INFO] Querying registry for permission grant
+[INFO] Authenticating with user: <anonymous>
+[INFO] Authentication succeeded
+[INFO] Fetching image manifest list
+[INFO] Fetching image manifest
+[INFO] Downloading 52 missing layers...
+[INFO] Extracting image layers...
+[INFO] Converting whiteouts...
+[INFO] Creating squashfs filesystem...
+Parallel mksquashfs: Using 224 processors
+Creating 4.0 filesystem on /mnt/localssd/enroot_cache_test_ssd/nvidia+pytorch+24.05-py3.sqsh, block size 131072.
+
+Exportable Squashfs 4.0 filesystem, lzo compressed, data block size 131072
+	uncompressed data, compressed metadata, compressed fragments,
+	compressed xattrs, compressed ids
+	duplicates are removed
+Filesystem size 16359733.45 Kbytes (15976.30 Mbytes)
+	90.90% of uncompressed filesystem size (17997184.48 Kbytes)
+Inode table size 2680930 bytes (2618.10 Kbytes)
+	33.17% of uncompressed inode table size (8081721 bytes)
+Directory table size 2683652 bytes (2620.75 Kbytes)
+	37.40% of uncompressed directory table size (7175921 bytes)
+Number of duplicate files found 51753
+Number of inodes 233246
+Number of files 202104
+Number of fragments 12507
+Number of symbolic links 1809
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 29333
+Number of ids (unique uids + gids) 1
+Number of uids 1
+	root (0)
+Number of gids 1
+	root (0)
+
+real	1m13.227s
+user	5m34.879s
+sys	1m56.782s
