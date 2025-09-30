@@ -73,7 +73,7 @@ enroot export --output gpt-oss-20b.sqsh gpt-oss-20b
 Copy the newly created container to a shared location (your home directory in this case) so it can be accessed by Slurm jobs.
 
 ```bash
-cp gpt-oss-20b.sqsh ~/ml-on-gcp/private-area/enablement/ai-sme-academy/enroot-demo/containers/
+cp gpt-oss-20b.sqsh ~/enroot-demo/containers/
 ```
 
 Once the copy is complete, you can exit the interactive `salloc` session.
@@ -83,7 +83,7 @@ Once the copy is complete, you can exit the interactive `salloc` session.
 With the container ready, submit the Slurm job. The `job_train_gpt20b.slurm` script is pre-configured to use Pyxis to run the job within our custom container.
 
 ```bash
-cd ~/ml-on-gcp/private-area/enablement/ai-sme-academy/enroot-demo
+cd ~/enroot-demo
 sbatch slurm-jobs/job_train_gpt20b.slurm
 ```
 
